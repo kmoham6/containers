@@ -3,6 +3,7 @@ ARG OS="ubuntu"
 
 RUN mkdir ${OS}
 RUN echo "hello"
+RUN echo "test"
 # FROM ubuntu:latest AS dependency 
 
 # RUN mkdir $MYARG
