@@ -2,6 +2,7 @@ FROM ubuntu
 ARG OS="ubuntu"
 
 RUN mkdir ${OS}
+RUN echo "hello"
 # FROM ubuntu:latest AS dependency 
 
 # RUN mkdir $MYARG
