@@ -4,6 +4,7 @@ ARG OS="fedora"
 RUN mkdir ${OS}
 
 # Run echo "hello"
+#RUN echo "hi"
 # FROM ubuntu:latest AS dependency 
 
  #RUN mkdir $MYARG
