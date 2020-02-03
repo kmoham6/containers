@@ -17,3 +17,4 @@ WORKDIR /home/karame-docker
 RUN dnf install -y python3
 RUN dnf install -y pip
 RUN dnf install -y numpy
+RUN echo "HELLO"
